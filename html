@@ -6,24 +6,27 @@
   <title>Aura Landing</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jura:wght@400&family=Manrope:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="page">
     <section class="hero" aria-labelledby="hero-title">
       <h1 id="hero-title" class="visually-hidden">Aura</h1>
-      <div class="hero__art">
-        <img src="assets/logo.png" alt="Aura sunburst illustration" class="hero__image" loading="lazy" />
-      </div>
-      <div class="hero__content">
+      <div class="hero__center">
+        <div class="hero__art">
+          <img src="assets/logo.png" alt="Aura sunburst illustration" class="hero__image" loading="lazy">
+        </div>
+        <p class="hero__wordmark" aria-hidden="true">aura</p>
         <nav class="hero__actions" aria-label="Primary actions">
-          <a class="btn" href="#">bot</a>
-          <a class="btn" href="#">telegram</a>
-          <a class="btn" href="#">x</a>
-          <a class="btn" href="#">manual</a>
+          <a class="btn btn--bot" href="#">bot</a>
+          <a class="btn btn--telegram" href="#">telegram</a>
+          <a class="btn btn--x" href="#">x</a>
+          <a class="btn btn--manual" href="#">manual</a>
         </nav>
-        <p class="hero__tagline">in aura we trade</p>
       </div>
     </section>
   </main>
